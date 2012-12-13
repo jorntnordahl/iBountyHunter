@@ -18,6 +18,10 @@
 		B138ED25167A2E6B00550512 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B138ED24167A2E6B00550512 /* Default@2x.png */; };
 		B138ED27167A2E6B00550512 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B138ED26167A2E6B00550512 /* Default-568h@2x.png */; };
 		B138ED2A167A2E6B00550512 /* iBountyHunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B138ED28167A2E6B00550512 /* iBountyHunter.xcdatamodeld */; };
+		B138ED39167A305600550512 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B138ED38167A305600550512 /* MainWindow_iPhone.xib */; };
+		B138ED3B167A307500550512 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B138ED3A167A307500550512 /* MainWindow_iPad.xib */; };
+		B138ED3E167A31F500550512 /* AppDelegateiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B138ED3D167A31F500550512 /* AppDelegateiPad.m */; };
+		B138ED44167A32B900550512 /* AppDelegateiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B138ED43167A32B900550512 /* AppDelegateiPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,12 @@
 		B138ED24167A2E6B00550512 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B138ED26167A2E6B00550512 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B138ED29167A2E6B00550512 /* iBountyHunter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBountyHunter.xcdatamodel; sourceTree = "<group>"; };
+		B138ED38167A305600550512 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow_iPhone.xib; path = iPhone/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		B138ED3A167A307500550512 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow_iPad.xib; path = iPad/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		B138ED3C167A31F500550512 /* AppDelegateiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegateiPad.h; path = iPad/AppDelegateiPad.h; sourceTree = "<group>"; };
+		B138ED3D167A31F500550512 /* AppDelegateiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegateiPad.m; path = iPad/AppDelegateiPad.m; sourceTree = "<group>"; };
+		B138ED42167A32B900550512 /* AppDelegateiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegateiPhone.h; path = iPhone/AppDelegateiPhone.h; sourceTree = "<group>"; };
+		B138ED43167A32B900550512 /* AppDelegateiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegateiPhone.m; path = iPhone/AppDelegateiPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,8 @@
 				B138ED1F167A2E6B00550512 /* AppDelegate.h */,
 				B138ED20167A2E6B00550512 /* AppDelegate.m */,
 				B138ED28167A2E6B00550512 /* iBountyHunter.xcdatamodeld */,
+				B138ED36167A302300550512 /* iPad */,
+				B138ED37167A302D00550512 /* iPhone */,
 				B138ED17167A2E6B00550512 /* Supporting Files */,
 			);
 			path = iBountyHunter;
@@ -104,6 +116,26 @@
 				B138ED26167A2E6B00550512 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B138ED36167A302300550512 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B138ED3A167A307500550512 /* MainWindow_iPad.xib */,
+				B138ED3C167A31F500550512 /* AppDelegateiPad.h */,
+				B138ED3D167A31F500550512 /* AppDelegateiPad.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		B138ED37167A302D00550512 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				B138ED38167A305600550512 /* MainWindow_iPhone.xib */,
+				B138ED42167A32B900550512 /* AppDelegateiPhone.h */,
+				B138ED43167A32B900550512 /* AppDelegateiPhone.m */,
+			);
+			name = iPhone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +193,8 @@
 				B138ED23167A2E6B00550512 /* Default.png in Resources */,
 				B138ED25167A2E6B00550512 /* Default@2x.png in Resources */,
 				B138ED27167A2E6B00550512 /* Default-568h@2x.png in Resources */,
+				B138ED39167A305600550512 /* MainWindow_iPhone.xib in Resources */,
+				B138ED3B167A307500550512 /* MainWindow_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +208,8 @@
 				B138ED1D167A2E6B00550512 /* main.m in Sources */,
 				B138ED21167A2E6B00550512 /* AppDelegate.m in Sources */,
 				B138ED2A167A2E6B00550512 /* iBountyHunter.xcdatamodeld in Sources */,
+				B138ED3E167A31F500550512 /* AppDelegateiPad.m in Sources */,
+				B138ED44167A32B900550512 /* AppDelegateiPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
