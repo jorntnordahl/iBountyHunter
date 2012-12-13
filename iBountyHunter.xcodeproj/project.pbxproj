@@ -22,6 +22,8 @@
 		B138ED3B167A307500550512 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B138ED3A167A307500550512 /* MainWindow_iPad.xib */; };
 		B138ED3E167A31F500550512 /* AppDelegateiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B138ED3D167A31F500550512 /* AppDelegateiPad.m */; };
 		B138ED44167A32B900550512 /* AppDelegateiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B138ED43167A32B900550512 /* AppDelegateiPhone.m */; };
+		B1C187DE167A356800F9BBB9 /* FugitiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C187DD167A356800F9BBB9 /* FugitiveListViewController.m */; };
+		B1C187E2167A374C00F9BBB9 /* CapturedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C187E1167A374C00F9BBB9 /* CapturedListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		B138ED3D167A31F500550512 /* AppDelegateiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegateiPad.m; path = iPad/AppDelegateiPad.m; sourceTree = "<group>"; };
 		B138ED42167A32B900550512 /* AppDelegateiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegateiPhone.h; path = iPhone/AppDelegateiPhone.h; sourceTree = "<group>"; };
 		B138ED43167A32B900550512 /* AppDelegateiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegateiPhone.m; path = iPhone/AppDelegateiPhone.m; sourceTree = "<group>"; };
+		B1C187DC167A356800F9BBB9 /* FugitiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FugitiveListViewController.h; path = iPhone/FugitiveListViewController.h; sourceTree = "<group>"; };
+		B1C187DD167A356800F9BBB9 /* FugitiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FugitiveListViewController.m; path = iPhone/FugitiveListViewController.m; sourceTree = "<group>"; };
+		B1C187E0167A374C00F9BBB9 /* CapturedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CapturedListViewController.h; path = iPhone/CapturedListViewController.h; sourceTree = "<group>"; };
+		B1C187E1167A374C00F9BBB9 /* CapturedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CapturedListViewController.m; path = iPhone/CapturedListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,10 @@
 				B138ED38167A305600550512 /* MainWindow_iPhone.xib */,
 				B138ED42167A32B900550512 /* AppDelegateiPhone.h */,
 				B138ED43167A32B900550512 /* AppDelegateiPhone.m */,
+				B1C187DC167A356800F9BBB9 /* FugitiveListViewController.h */,
+				B1C187DD167A356800F9BBB9 /* FugitiveListViewController.m */,
+				B1C187E0167A374C00F9BBB9 /* CapturedListViewController.h */,
+				B1C187E1167A374C00F9BBB9 /* CapturedListViewController.m */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -210,6 +220,8 @@
 				B138ED2A167A2E6B00550512 /* iBountyHunter.xcdatamodeld in Sources */,
 				B138ED3E167A31F500550512 /* AppDelegateiPad.m in Sources */,
 				B138ED44167A32B900550512 /* AppDelegateiPhone.m in Sources */,
+				B1C187DE167A356800F9BBB9 /* FugitiveListViewController.m in Sources */,
+				B1C187E2167A374C00F9BBB9 /* CapturedListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +330,7 @@
 				B138ED2F167A2E6B00550512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

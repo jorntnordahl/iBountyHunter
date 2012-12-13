@@ -6,10 +6,18 @@
 //  Copyright (c) 2012 Jorn Nordahl. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 #import "AppDelegate.h"
 
-@interface AppDelegateiPhone : UIResponder <UIApplicationDelegate>
+@interface AppDelegateiPhone : AppDelegate {
+    UITabBarController *tabBarController_;
+}
+
+
+//<UIApplicationDelegate>
 
 @property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (retain, nonatomic) IBOutlet UITabBarController *tabController;
 
 @end

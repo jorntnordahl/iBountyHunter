@@ -9,5 +9,6 @@
 #import "AppDelegateiPhone.h"
 
 @implementation AppDelegateiPhone
+@synthesize tabController = tabBarController_;
 
 @end
